@@ -50,7 +50,7 @@ def main() -> None:
     print(f"Analyzing with {analyzer_id} analyzer...")
 
     try:
-        path_to_sample_document = "./examples/職務経歴書(サンプル).pdf"
+        path_to_sample_document = "./examples/pdf/職務経歴書(サンプル).pdf"
         with open(path_to_sample_document, "rb") as f:
             poller = client.begin_analyze_binary(
                 analyzer_id=analyzer_id,
