@@ -1,4 +1,5 @@
-This PR is to implement test on Japanese cv parser created through azure content understanding. 
+# Japanese CV Parser
+This PR is to implement test on Japanese cv parser created through Azure content understanding. 
 
 To open `test_cv_parsing_speed_and_cost.ipynb`, 
 
@@ -14,7 +15,7 @@ To run `test_cv_parsing.py` to try cv parser,
 uv run python test_cv_parsing.py
 ```
 
-
+## Performance and cost comparsion among different version of Azure content understanding api
 
 | api version | analyser id  | speed (per 2-page pdf) | cost (per 2-page pdf) | quality (per 2-page pdf)| speed (per 2-page docx) | cost (per 2-page docx) | quality (per 2-page docx)| speed (per 2-page xlsx) | cost (per 2-page xlsx) | quality (per 2-page xlsx)|
 | :--- | :---: | ---: | :--- | :---: | ---: | :--- | :---: | ---: | :--- | :---: |
