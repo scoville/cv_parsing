@@ -13,3 +13,10 @@ To run `test_cv_parsing.py` to try cv parser,
 ```bash 
 uv run python test_cv_parsing.py
 ```
+
+
+
+| api version | analyser id  | speed (per 2-page pdf) | cost (per 2-page pdf) | quality (per 2-page pdf)| speed (per 2-page docx) | cost (per 2-page docx) | quality (per 2-page docx)| speed (per 2-page xlsx) | cost (per 2-page xlsx) | quality (per 2-page xlsx)|
+| :--- | :---: | ---: | :--- | :---: | ---: | :--- | :---: | ---: | :--- | :---: |
+| 2025-11-01 | cv_parser_test_lk | 22.5 s ± 1.05 s | $0.0357 | high | 12.7 s ± 98.6 ms | $0.021 | very low | 13.6 s ± 2.18 s |  $0.0231 | very low |
+| 2026-06-01-preview | cv_parser_preview_api_2026_06_01| **19.9 s ± 1.52 s** | $0.0438 | high | 11 s ± 1.58 s | $0.0272 | high | 10.1 s ± 1.05 s | $0.029 | high
